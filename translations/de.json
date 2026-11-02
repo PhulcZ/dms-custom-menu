@@ -1,0 +1,1388 @@
+{
+  "%1 (changed)": {
+    "%1 (changed)": "%1 (geändert)"
+  },
+  "%1 files": {
+    "%1 files": "%1 Dateien"
+  },
+  "%1 folders": {
+    "%1 folders": "%1 Ordner"
+  },
+  "0 = no border": {
+    "0 = no border": "0 = kein Rahmen"
+  },
+  "0 = no border; 1 px thicker when focused": {
+    "0 = no border; 1 px thicker when focused": "0 = kein Rahmen; beim Tippen ein Pixel dicker"
+  },
+  "0% is fully opaque": {
+    "0% is fully opaque": "0 % ist voll deckend"
+  },
+  "1 file": {
+    "1 file": "1 Datei"
+  },
+  "1 folder": {
+    "1 folder": "1 Ordner"
+  },
+  "A profile with this name already exists and will be replaced.": {
+    "A profile with this name already exists and will be replaced.": "Ein Profil mit diesem Namen existiert und wird ersetzt."
+  },
+  "Above": {
+    "Above": "Oben"
+  },
+  "Add": {
+    "Add": "Hinzufügen"
+  },
+  "Add app": {
+    "Add app": "App hinzufügen"
+  },
+  "Add badge": {
+    "Add badge": "Badge hinzufügen"
+  },
+  "Add element": {
+    "Add element": "Element hinzufügen"
+  },
+  "Add to: %1": {
+    "Add to: %1": "Hinzufügen zu: %1"
+  },
+  "Align automatically": {
+    "Align automatically": "Automatisch ausrichten"
+  },
+  "Align horizontally": {
+    "Align horizontally": "Horizontal ausrichten"
+  },
+  "Align vertically": {
+    "Align vertically": "Vertikal ausrichten"
+  },
+  "Alignment": {
+    "Alignment": "Ausrichtung"
+  },
+  "All": {
+    "All": "Alle"
+  },
+  "All chips the same width; longer names are truncated": {
+    "All chips the same width; longer names are truncated": "Alle Chips gleich breit, längere Namen werden gekürzt"
+  },
+  "All tile elements": {
+    "All tile elements": "Alle Kachel-Elemente"
+  },
+  "already in the menu": {
+    "already in the menu": "schon im Menü"
+  },
+  "Also applies without visible chips": {
+    "Also applies without visible chips": "Gilt auch ohne sichtbare Chips"
+  },
+  "App description in a line below the name": {
+    "App description in a line below the name": "Zeile mit der App-Beschreibung unter dem Namen"
+  },
+  "Appearance of the four levels": {
+    "Appearance of the four levels": "Aussehen der 4 Ebenen"
+  },
+  "Applications": {
+    "Applications": "Anwendungen"
+  },
+  "Applies only to the tile element selected above under \"Style for\".": {
+    "Applies only to the tile element selected above under \"Style for\".": "Gilt nur für das oben unter „Optik für“ gewählte Kachel-Element."
+  },
+  "Applies to all elements (apps, categories, search, tiles) unless an element sets its own value. If not set here, each element uses its own default.": {
+    "Applies to all elements (apps, categories, search, tiles) unless an element sets its own value. If not set here, each element uses its own default.": "Gilt für alle Elemente (Apps, Kategorien, Suche, Kacheln), solange ein Element nichts Eigenes festlegt. Hier nicht festgelegt = jedes Element nutzt seine eigene Vorgabe."
+  },
+  "Applies to all tile elements (select one above under \"Style for\").": {
+    "Applies to all tile elements (select one above under \"Style for\").": "Gilt für alle Kachel-Elemente (eines lässt sich oben unter „Optik für“ wählen)."
+  },
+  "Apps": {
+    "Apps": "Apps"
+  },
+  "Apps and buttons as tiles, independent of category and search. Add an element with \"+\" in edit mode; its pencil edits the tiles and the arrangement (grid or row).": {
+    "Apps and buttons as tiles, independent of category and search. Add an element with \"+\" in edit mode; its pencil edits the tiles and the arrangement (grid or row).": "Apps und Buttons als Kacheln, unabhängig von Kategorie und Suche. Element im Bearbeiten-Modus mit „+“ hinzufügen; sein Stift bearbeitet die Kacheln und die Anordnung (Raster oder Reihe)."
+  },
+  "Apps dragged onto a category or onto \"Hidden\". Both: also in the DMS launcher (custom desktop file in ~/.local/share/applications, hidden via DMS). Custom categories exist only in CustomMenu.": {
+    "Apps dragged onto a category or onto \"Hidden\". Both: also in the DMS launcher (custom desktop file in ~/.local/share/applications, hidden via DMS). Custom categories exist only in CustomMenu.": "Apps, die auf eine Kategorie oder auf „Versteckt“ gezogen werden. Beide: auch im DMS-Launcher (eigene Startdatei in ~/.local/share/applications, Ausblenden über DMS). Eigene Kategorien gibt es nur im CustomMenu."
+  },
+  "Arrangement \"Row\" only": {
+    "Arrangement \"Row\" only": "Nur Anordnung „Reihe“"
+  },
+  "Arrangement \"Row\" only: where the tiles sit when the element is bigger than them": {
+    "Arrangement \"Row\" only: where the tiles sit when the element is bigger than them": "Nur Anordnung „Reihe“: wo die Kacheln sitzen, wenn das Element größer ist als sie"
+  },
+  "Assignments apply to": {
+    "Assignments apply to": "Zuordnungen gelten für"
+  },
+  "At the widget (DMS default)": {
+    "At the widget (DMS default)": "Am Widget (DMS Standard)"
+  },
+  "Automatic (one column left, else centered)": {
+    "Automatic (one column left, else centered)": "Automatisch (eine Spalte links, sonst mittig)"
+  },
+  "Back": {
+    "Back": "Zurück"
+  },
+  "Background": {
+    "Background": "Hintergrund"
+  },
+  "Background blur": {
+    "Background blur": "Unschärfe dahinter"
+  },
+  "Background color": {
+    "Background color": "Hintergrundfarbe"
+  },
+  "Background of each chip": {
+    "Background of each chip": "Hintergrund jedes Chips"
+  },
+  "Background of the tile elements": {
+    "Background of the tile elements": "Hintergrund der Kachel-Elemente"
+  },
+  "Background of this apps element": {
+    "Background of this apps element": "Hintergrund dieses Apps-Elements"
+  },
+  "Background of this categories element": {
+    "Background of this categories element": "Hintergrund dieses Kategorien-Elements"
+  },
+  "Background of this search element": {
+    "Background of this search element": "Hintergrund dieses Such-Elements"
+  },
+  "Background of this tile element": {
+    "Background of this tile element": "Hintergrund dieses Kachel-Elements"
+  },
+  "Badge": {
+    "Badge": "Badge"
+  },
+  "Badges": {
+    "Badges": "Badges"
+  },
+  "Behavior": {
+    "Behavior": "Verhalten"
+  },
+  "Below": {
+    "Below": "Unten"
+  },
+  "Between adjacent elements": {
+    "Between adjacent elements": "Zwischen benachbarten Elementen"
+  },
+  "Between rows when the chips wrap": {
+    "Between rows when the chips wrap": "Zwischen den Zeilen, wenn die Chips umbrechen"
+  },
+  "Black, 85% transparent": {
+    "Black, 85% transparent": "Schwarz, 85 % transparent"
+  },
+  "Blurs whatever is behind each chip, tile and the search field, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1) and translucent levels in between.": {
+    "Blurs whatever is behind each chip, tile and the search field, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1) and translucent levels in between.": "Macht unscharf, was hinter jedem Chip, jeder Kachel und dem Suchfeld liegt, genau in seiner Form. Sichtbar mit einer eigenen, durchsichtigen Menüfläche („Aussehen der 4 Ebenen“ › Level 1) und durchsichtigen Ebenen dazwischen."
+  },
+  "Blurs whatever is behind the background, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1) and a translucent or no background color.": {
+    "Blurs whatever is behind the background, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1) and a translucent or no background color.": "Verwischt, was hinter dem Hintergrund liegt, genau in seiner Form. Sichtbar mit einer eigenen, durchsichtigen Menüfläche („Aussehen der 4 Ebenen“ › Level 1) und einer durchsichtigen oder keiner Hintergrundfarbe."
+  },
+  "Blurs whatever is behind the canvas, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1).": {
+    "Blurs whatever is behind the canvas, following its shape. Visible only with a custom, translucent menu surface (Appearance › Level 1).": "Verwischt, was hinter dem Canvas liegt, genau in seiner Form. Sichtbar mit einer eigenen, durchsichtigen Menüfläche („Aussehen der 4 Ebenen“ › Level 1)."
+  },
+  "Bold": {
+    "Bold": "Fett"
+  },
+  "Border": {
+    "Border": "Rahmen"
+  },
+  "Border color": {
+    "Border color": "Rahmenfarbe"
+  },
+  "Border of each chip": {
+    "Border of each chip": "Rahmen jedes Chips"
+  },
+  "Border of the tile elements": {
+    "Border of the tile elements": "Rahmen der Kachel-Elemente"
+  },
+  "Border of this apps element": {
+    "Border of this apps element": "Rahmen dieses Apps-Elements"
+  },
+  "Border of this categories element": {
+    "Border of this categories element": "Rahmen dieses Kategorien-Elements"
+  },
+  "Border of this search element": {
+    "Border of this search element": "Rahmen dieses Such-Elements"
+  },
+  "Border of this tile element": {
+    "Border of this tile element": "Rahmen dieses Kachel-Elements"
+  },
+  "Border width": {
+    "Border width": "Rahmenbreite"
+  },
+  "Bottom": {
+    "Bottom": "Unten"
+  },
+  "Built-in profiles cannot be overwritten. Please choose another name.": {
+    "Built-in profiles cannot be overwritten. Please choose another name.": "Mitgelieferte Profile können nicht überschrieben werden. Bitte einen anderen Namen wählen."
+  },
+  "Cancel": {
+    "Cancel": "Abbrechen"
+  },
+  "Canvas margin": {
+    "Canvas margin": "Abstand Canvas zum Rand"
+  },
+  "Canvas margin, bar side": {
+    "Canvas margin, bar side": "Abstand Canvas zur Leiste"
+  },
+  "Canvas margin, other sides": {
+    "Canvas margin, other sides": "Abstand Canvas übrige Seiten"
+  },
+  "Canvas padding": {
+    "Canvas padding": "Innenabstand Canvas"
+  },
+  "Canvas padding, bar side": {
+    "Canvas padding, bar side": "Innenabstand Canvas zur Leiste"
+  },
+  "Canvas padding, other sides": {
+    "Canvas padding, other sides": "Innenabstand Canvas übrige Seiten"
+  },
+  "Categories": {
+    "Categories": "Kategorien"
+  },
+  "Center": {
+    "Center": "Mittig"
+  },
+  "Center content horizontally": {
+    "Center content horizontally": "Inhalt horizontal zentrieren"
+  },
+  "Center content vertically": {
+    "Center content vertically": "Inhalt vertikal zentrieren"
+  },
+  "Centered": {
+    "Centered": "Mittig"
+  },
+  "Centered between neighbors": {
+    "Centered between neighbors": "Zentriert zwischen den Nachbarn"
+  },
+  "Changes below apply only to this element; anything it does not set itself follows the style for all.": {
+    "Changes below apply only to this element; anything it does not set itself follows the style for all.": "Änderungen hier unten gelten nur für dieses Element; was es nicht selbst festlegt, folgt der Optik für alle."
+  },
+  "Chip color": {
+    "Chip color": "Chip-Farbe"
+  },
+  "Chip in the search field": {
+    "Chip in the search field": "Chip im Suchfeld"
+  },
+  "Chips": {
+    "Chips": "Chips"
+  },
+  "Chips beside the search field": {
+    "Chips beside the search field": "Chips neben dem Suchfeld"
+  },
+  "Choose icon": {
+    "Choose icon": "Icon wählen"
+  },
+  "Choose what to search": {
+    "Choose what to search": "Auswahl, was gesucht wird"
+  },
+  "Clear search": {
+    "Clear search": "Suche leeren"
+  },
+  "Close the settings": {
+    "Close the settings": "Einstellungen schließen"
+  },
+  "Color": {
+    "Color": "Farbe"
+  },
+  "Color of all icons": {
+    "Color of all icons": "Farbe aller Icons"
+  },
+  "Color while typing": {
+    "Color while typing": "Farbe beim Tippen"
+  },
+  "Command": {
+    "Command": "Befehl"
+  },
+  "Command (read-only)": {
+    "Command (read-only)": "Befehl (nur lesen)"
+  },
+  "Compact": {
+    "Compact": "Kompakt"
+  },
+  "Corner radius": {
+    "Corner radius": "Eckenradius"
+  },
+  "Create new instances here, then add them to the bar like any other widget.": {
+    "Create new instances here, then add them to the bar like any other widget.": "Hier können neue Instanzen erzeugt und dann regulär als neues Leisten-Widget hinzugefügt werden."
+  },
+  "Created in the category editor (pencil on the categories element). Their headings look like the search result sections unless set otherwise here.": {
+    "Created in the category editor (pencil on the categories element). Their headings look like the search result sections unless set otherwise here.": "Angelegt im Kategorien-Editor (Stift am Kategorien-Element). Ihre Überschriften sehen aus wie die Rubriken der Suchergebnisse, solange hier nichts anderes eingestellt ist."
+  },
+  "Current": {
+    "Current": "Aktuell"
+  },
+  "Custom": {
+    "Custom": "Eigene"
+  },
+  "Custom color": {
+    "Custom color": "Eigene Farbe"
+  },
+  "Custom command": {
+    "Custom command": "Eigener Befehl"
+  },
+  "CustomMenu and DMS launcher": {
+    "CustomMenu and DMS launcher": "CustomMenu und DMS-Launcher"
+  },
+  "CustomMenu only": {
+    "CustomMenu only": "Nur CustomMenu"
+  },
+  "CustomMenu settings": {
+    "CustomMenu settings": "CustomMenu-Einstellungen"
+  },
+  "Default": {
+    "Default": "Standard"
+  },
+  "Default (app text)": {
+    "Default (app text)": "Standard (App-Text)"
+  },
+  "Default (app text, dimmed)": {
+    "Default (app text, dimmed)": "Standard (App-Text, blass)"
+  },
+  "Default (DMS hover)": {
+    "Default (DMS hover)": "Standard (DMS-Hover)"
+  },
+  "Default (DMS level 1 host)": {
+    "Default (DMS level 1 host)": "Standard (DMS Level 1 Host)"
+  },
+  "Default (DMS level 2 cards)": {
+    "Default (DMS level 2 cards)": "Standard (DMS Level 2 Karten)"
+  },
+  "Default (DMS level 3 chip)": {
+    "Default (DMS level 3 chip)": "Standard (DMS Level 3 Chip)"
+  },
+  "Default (DMS level 4 nested chip)": {
+    "Default (DMS level 4 nested chip)": "Standard (DMS Level 4 Verschachtelter Chip)"
+  },
+  "Default (DMS)": {
+    "Default (DMS)": "Standard (DMS)"
+  },
+  "Default (Nested chip)": {
+    "Default (Nested chip)": "Standard (Nested Chip)"
+  },
+  "Default (no border)": {
+    "Default (no border)": "Standard (kein Rahmen)"
+  },
+  "Default (On Primary Container)": {
+    "Default (On Primary Container)": "Standard (On Primary Container)"
+  },
+  "Default (Outline)": {
+    "Default (Outline)": "Standard (Outline)"
+  },
+  "Default (Primary Container)": {
+    "Default (Primary Container)": "Standard (Primary Container)"
+  },
+  "Default (Primary)": {
+    "Default (Primary)": "Standard (Primary)"
+  },
+  "Default (same as Appearance)": {
+    "Default (same as Appearance)": "Standard (wie in „Aussehen der 4 Ebenen“)"
+  },
+  "Default (same as unfocused)": {
+    "Default (same as unfocused)": "Standard (wie ohne Fokus)"
+  },
+  "Default (same as when not typing)": {
+    "Default (same as when not typing)": "Standard (wie ohne Tippen)"
+  },
+  "Default (Text)": {
+    "Default (Text)": "Standard (Text)"
+  },
+  "Default color": {
+    "Default color": "Standardfarbe"
+  },
+  "Default text colors with open windows": {
+    "Default text colors with open windows": "Normale Textfarben bei offenen Fenstern"
+  },
+  "Delete category": {
+    "Delete category": "Kategorie löschen"
+  },
+  "Delete instance": {
+    "Delete instance": "Instanz löschen"
+  },
+  "Delete profile": {
+    "Delete profile": "Profil löschen"
+  },
+  "Delete subcategory": {
+    "Delete subcategory": "Sub-Kategorie löschen"
+  },
+  "Description": {
+    "Description": "Beschreibung"
+  },
+  "Discard": {
+    "Discard": "Verwerfen"
+  },
+  "Distro logos": {
+    "Distro logos": "Distro-Logos"
+  },
+  "DMS icons": {
+    "DMS icons": "DMS-Icons"
+  },
+  "DMS launcher": {
+    "DMS launcher": "DMS-Launcher"
+  },
+  "DMS only": {
+    "DMS only": "Nur in DMS"
+  },
+  "DMS only: same as the DMS launcher. System-wide: a custom desktop file in ~/.local/share/applications; the command can be edited": {
+    "DMS only: same as the DMS launcher. System-wide: a custom desktop file in ~/.local/share/applications; the command can be edited": "Nur in DMS: wie im DMS-Launcher. Systemweit: eigene Startdatei in ~/.local/share/applications, Befehl bearbeitbar"
+  },
+  "DMS settings": {
+    "DMS settings": "DMS-Einstellungen"
+  },
+  "Don't show again": {
+    "Don't show again": "Nicht mehr anzeigen"
+  },
+  "Done": {
+    "Done": "Fertig"
+  },
+  "Drag apps here": {
+    "Drag apps here": "Apps hierher ziehen"
+  },
+  "Drag to change the order. The filled circle marks the category shown when the menu opens. Hidden categories stay in this list; deleted DMS categories can be restored. Custom categories exist only in CustomMenu; add apps by drag and drop. Subcategories (arrow button) appear as sections with headings within their category; drag apps into them in the menu.": {
+    "Drag to change the order. The filled circle marks the category shown when the menu opens. Hidden categories stay in this list; deleted DMS categories can be restored. Custom categories exist only in CustomMenu; add apps by drag and drop. Subcategories (arrow button) appear as sections with headings within their category; drag apps into them in the menu.": "Ziehen ändert die Reihenfolge. Der gefüllte Kreis markiert die Kategorie, die beim Öffnen des Menüs gezeigt wird. Ausgeblendete Kategorien bleiben in dieser Liste; gelöschte DMS-Kategorien lassen sich wiederherstellen. Eigene Kategorien gibt es nur im CustomMenu; Apps kommen per Drag & Drop hinein. Sub-Kategorien (Pfeil-Knopf) erscheinen in ihrer Kategorie als Abschnitte mit Überschrift; Apps zieht man im Menü hinein."
+  },
+  "Drop here to remove from subcategories": {
+    "Drop here to remove from subcategories": "Hier ablegen: ohne Sub-Kategorie"
+  },
+  "Dropdown": {
+    "Dropdown": "Auswahlliste"
+  },
+  "e.g. dms ipc call theme toggle": {
+    "e.g. dms ipc call theme toggle": "z. B. dms ipc call theme toggle"
+  },
+  "e.g. ~/Downloads": {
+    "e.g. ~/Downloads": "z. B. ~/Downloads"
+  },
+  "Edit App": {
+    "Edit App": "App bearbeiten"
+  },
+  "Edit button": {
+    "Edit button": "Bearbeiten-Button"
+  },
+  "Edit categories": {
+    "Edit categories": "Kategorien bearbeiten"
+  },
+  "Edit CustomMenu": {
+    "Edit CustomMenu": "CustomMenu bearbeiten"
+  },
+  "Edit layout": {
+    "Edit layout": "Anordnung bearbeiten"
+  },
+  "Edit tiles": {
+    "Edit tiles": "Kacheln bearbeiten"
+  },
+  "Element background": {
+    "Element background": "Hintergrund des Elements"
+  },
+  "Element border": {
+    "Element border": "Rahmen des Elements"
+  },
+  "empty": {
+    "empty": "leer"
+  },
+  "Enter launches the first app": {
+    "Enter launches the first app": "Enter startet die erste App"
+  },
+  "Environment Variables": {
+    "Environment Variables": "Umgebungsvariablen"
+  },
+  "Error": {
+    "Error": "Error"
+  },
+  "Everything": {
+    "Everything": "Alles"
+  },
+  "Everything, Apps, Files or Folders; the menu always opens with Everything. Chips below the field look like the category chips.": {
+    "Everything, Apps, Files or Folders; the menu always opens with Everything. Chips below the field look like the category chips.": "Alles, Apps, Dateien oder Ordner; jedes Öffnen beginnt mit Alles. Chips unter dem Feld sehen aus wie die Kategorie-Chips."
+  },
+  "Extra Arguments": {
+    "Extra Arguments": "Zusätzliche Argumente"
+  },
+  "Fade edges when scrolling": {
+    "Fade edges when scrolling": "Weicher Rand beim Scrollen"
+  },
+  "Favorite folder": {
+    "Favorite folder": "Favoriten-Ordner"
+  },
+  "Favorites": {
+    "Favorites": "Favoriten"
+  },
+  "Files": {
+    "Files": "Dateien"
+  },
+  "Files and folders": {
+    "Files and folders": "Dateien und Ordner"
+  },
+  "Filter": {
+    "Filter": "Filter"
+  },
+  "Floating": {
+    "Floating": "Frei schwebend"
+  },
+  "Focus color": {
+    "Focus color": "Farbe bei Fokus"
+  },
+  "Folder contents": {
+    "Folder contents": "Inhalt von Ordnern"
+  },
+  "Folders": {
+    "Folders": "Ordner"
+  },
+  "Font weight": {
+    "Font weight": "Textgewicht"
+  },
+  "Found by DMS' file search (dsearch). Which types appear is set in DMS settings › Launcher.": {
+    "Found by DMS' file search (dsearch). Which types appear is set in DMS settings › Launcher.": "Gefunden von der DMS-Dateisuche (dsearch). Welche Arten erscheinen: DMS-Einstellungen › Launcher."
+  },
+  "Free": {
+    "Free": "Frei"
+  },
+  "From a screen edge: with DMS' connected frame, the menu stays attached to the frame there. Free: detached from the frame.": {
+    "From a screen edge: with DMS' connected frame, the menu stays attached to the frame there. Free: detached from the frame.": "Aus einer Bildschirmkante: Mit verbundenem Rahmen bleibt das Menü dort mit dem Rahmen verbunden. Frei: losgelöst vom Rahmen."
+  },
+  "From the bottom": {
+    "From the bottom": "Von unten"
+  },
+  "From the center. Positive: down, negative: up": {
+    "From the center. Positive: down, negative: up": "Ab der Mitte. Positiv: nach unten, negativ: nach oben"
+  },
+  "From the center. Positive: to the right, negative: to the left": {
+    "From the center. Positive: to the right, negative: to the left": "Ab der Mitte. Positiv: nach rechts, negativ: nach links"
+  },
+  "From the left": {
+    "From the left": "Von links"
+  },
+  "From the profile (%1)": {
+    "From the profile (%1)": "Aus dem Profil (%1)"
+  },
+  "From the right": {
+    "From the right": "Von rechts"
+  },
+  "From the top": {
+    "From the top": "Von oben"
+  },
+  "Full width": {
+    "Full width": "Volle Breite"
+  },
+  "Fullscreen": {
+    "Fullscreen": "Vollbild"
+  },
+  "Gap between elements": {
+    "Gap between elements": "Abstand zwischen Elementen"
+  },
+  "Gap between icon and text": {
+    "Gap between icon and text": "Abstand zwischen Icon und Text"
+  },
+  "Gap between name and description": {
+    "Gap between name and description": "Abstand zwischen Name und Beschreibung"
+  },
+  "Gear in the menu: opens this page": {
+    "Gear in the menu: opens this page": "Zahnrad im Menü: öffnet diese Seite"
+  },
+  "Gives each app its own background": {
+    "Gives each app its own background": "Jede App bekommt einen eigenen Hintergrund"
+  },
+  "Glossy": {
+    "Glossy": "Glossy"
+  },
+  "Grid": {
+    "Grid": "Raster"
+  },
+  "Grid: each tile keeps its place; drag tiles to move them, right-click to change their size (small, large). The element's width sets the number of columns; its height follows the tiles. Add apps by dragging them onto the element. Hold to confirm uses DMS' duration (power menu settings).": {
+    "Grid: each tile keeps its place; drag tiles to move them, right-click to change their size (small, large). The element's width sets the number of columns; its height follows the tiles. Add apps by dragging them onto the element. Hold to confirm uses DMS' duration (power menu settings).": "Raster: Jede Kachel behält ihren Platz; Kacheln zum Verschieben ziehen, Rechtsklick für die Größe (klein, groß). Die Breite des Elements bestimmt die Spalten, die Höhe folgt den Kacheln. Apps kommen per Ziehen auf das Element dazu. Gedrückthalten nutzt DMS' Dauer (Einstellungen des Ein/Aus-Menüs)."
+  },
+  "Group title color": {
+    "Group title color": "Farbe des Gruppentitels"
+  },
+  "Group title size": {
+    "Group title size": "Größe des Gruppentitels"
+  },
+  "Heading color": {
+    "Heading color": "Farbe der Überschrift"
+  },
+  "Heading size": {
+    "Heading size": "Größe der Überschrift"
+  },
+  "Height": {
+    "Height": "Höhe"
+  },
+  "Height of the menu": {
+    "Height of the menu": "Höhe des Menüs"
+  },
+  "Height of the menu, as a percentage of the screen height": {
+    "Height of the menu, as a percentage of the screen height": "Höhe des Menüs in Prozent der Bildschirmhöhe"
+  },
+  "Height of the search field; the element adjusts": {
+    "Height of the search field; the element adjusts": "Höhe des Suchfelds, das Element passt sich an"
+  },
+  "Hibernate": {
+    "Hibernate": "Ruhezustand"
+  },
+  "Hidden": {
+    "Hidden": "Versteckt"
+  },
+  "Hidden apps; right-click to show them again": {
+    "Hidden apps; right-click to show them again": "Ausgeblendete Apps, per Rechtsklick wieder einblendbar"
+  },
+  "Hide": {
+    "Hide": "Ausblenden"
+  },
+  "Hide App": {
+    "Hide App": "App ausblenden"
+  },
+  "Hide grid": {
+    "Hide grid": "Raster ausblenden"
+  },
+  "Hide section": {
+    "Hide section": "Rubrik ausblenden"
+  },
+  "Hide while typing": {
+    "Hide while typing": "Beim Tippen ausblenden"
+  },
+  "Highlight when focused": {
+    "Highlight when focused": "Bei Fokus hervorheben"
+  },
+  "Hold to confirm: off": {
+    "Hold to confirm: off": "Halten zum Bestätigen: aus"
+  },
+  "Hold to confirm: on": {
+    "Hold to confirm: on": "Halten zum Bestätigen: an"
+  },
+  "Horizontal alignment": {
+    "Horizontal alignment": "Ausrichtung horizontal"
+  },
+  "Horizontal offset": {
+    "Horizontal offset": "Versatz horizontal"
+  },
+  "Horizontal spacing": {
+    "Horizontal spacing": "Abstand waagerecht"
+  },
+  "How many folders of the path to show, counting up from the result": {
+    "How many folders of the path to show, counting up from the result": "Wie viele Ordner des Pfads gezeigt werden, vom Treffer aus nach oben gezählt"
+  },
+  "Icon": {
+    "Icon": "Icon"
+  },
+  "Icon color": {
+    "Icon color": "Icon-Farbe"
+  },
+  "Icon file, Material Symbol or DMS icon. Symbol icons can have their own color; icon files keep theirs.": {
+    "Icon file, Material Symbol or DMS icon. Symbol icons can have their own color; icon files keep theirs.": "Icon-Datei, Material Symbols oder DMS-Icon. Symbol-Icons können eine eigene Farbe bekommen, Icon-Dateien behalten ihre."
+  },
+  "Icon in the bar": {
+    "Icon in the bar": "Icon in der Leiste"
+  },
+  "Icon margin, large tiles": {
+    "Icon margin, large tiles": "Icon-Abstand zum Rand, große Kacheln"
+  },
+  "Icon margin, small tiles": {
+    "Icon margin, small tiles": "Icon-Abstand zum Rand, kleine Kacheln"
+  },
+  "Icon offset": {
+    "Icon offset": "Icon-Versatz"
+  },
+  "Icon on top: strip along the bottom edge. Icon on the side: behind the text": {
+    "Icon on top: strip along the bottom edge. Icon on the side: behind the text": "Icon oben: Streifen am unteren Rand. Icon seitlich: hinter dem Text"
+  },
+  "Icon per category": {
+    "Icon per category": "Icon je Kategorie"
+  },
+  "Icon position": {
+    "Icon position": "Icon-Position"
+  },
+  "Icon size": {
+    "Icon size": "Icon-Größe"
+  },
+  "If everything fits: centered. If not (the list scrolls, e.g. a search with files and sections): at the top (and left).": {
+    "If everything fits: centered. If not (the list scrolls, e.g. a search with files and sections): at the top (and left).": "Weniger Apps oder Treffer als Platz: zentriert. Mehr, als hineinpassen (es wird gescrollt, z. B. bei einer Suche mit Dateien und Rubriken): oben (und links)."
+  },
+  "Initial category": {
+    "Initial category": "Kategorie beim Öffnen"
+  },
+  "Inner grid cell": {
+    "Inner grid cell": "Zelle des inneren Rasters"
+  },
+  "Instance": {
+    "Instance": "Instanz"
+  },
+  "Keep (%1)": {
+    "Keep (%1)": "Behalten (%1)"
+  },
+  "Keep the current size of the menu or use the size saved in the profile?": {
+    "Keep the current size of the menu or use the size saved in the profile?": "Die aktuelle Größe des Menüs behalten oder die im Profil gespeicherte Größe verwenden?"
+  },
+  "Keyboard shortcut": {
+    "Keyboard shortcut": "Tastenkombination"
+  },
+  "Keyboard shortcut for this instance (DMS › Input › Keyboard shortcuts, run a command):": {
+    "Keyboard shortcut for this instance (DMS › Input › Keyboard shortcuts, run a command):": "Tastenkombination für diese Instanz (DMS › Eingabe › Tastenkombinationen, Befehl ausführen):"
+  },
+  "Large": {
+    "Large": "Groß"
+  },
+  "Launch": {
+    "Launch": "Starten"
+  },
+  "Launch on dGPU": {
+    "Launch on dGPU": "Auf dGPU starten"
+  },
+  "Left": {
+    "Left": "Links"
+  },
+  "Left menu": {
+    "Left menu": "Menü links"
+  },
+  "Letter": {
+    "Letter": "Buchstabe"
+  },
+  "Letter icon for apps without an icon": {
+    "Letter icon for apps without an icon": "Buchstaben-Icon für Apps ohne Icon"
+  },
+  "Level 1 · Background": {
+    "Level 1 · Background": "Level 1 · Hintergrund"
+  },
+  "Level 2 · Canvas": {
+    "Level 2 · Canvas": "Level 2 · Canvas"
+  },
+  "Level 3 · Elements": {
+    "Level 3 · Elements": "Level 3 · Elemente"
+  },
+  "Level 4 · Chips, tiles, search field": {
+    "Level 4 · Chips, tiles, search field": "Level 4 · Chips, Kacheln, Suchfeld"
+  },
+  "Limited to half the height of each chip or tile (fully round)": {
+    "Limited to half the height of each chip or tile (fully round)": "Begrenzt auf die halbe Höhe jedes Chips bzw. jeder Kachel (voll rund)"
+  },
+  "Line after the heading": {
+    "Line after the heading": "Linie hinter der Überschrift"
+  },
+  "Line color": {
+    "Line color": "Linienfarbe"
+  },
+  "List": {
+    "List": "Liste"
+  },
+  "Lock": {
+    "Lock": "Sperren"
+  },
+  "Lock in place": {
+    "Lock in place": "An dieser Stelle festsetzen"
+  },
+  "Locked: click to unlock": {
+    "Locked: click to unlock": "Festgesetzt: Klick zum Lösen"
+  },
+  "Main menu": {
+    "Main menu": "Hauptmenü"
+  },
+  "Make sure the right instance is selected!": {
+    "Make sure the right instance is selected!": "Bitte die richtige Instanz wählen!"
+  },
+  "Makes the element stand out, e.g. when the canvas is turned off": {
+    "Makes the element stand out, e.g. when the canvas is turned off": "Hebt das Element ab, z. B. bei ausgeschalteter Karte"
+  },
+  "Maximum = half the height: fully round ends": {
+    "Maximum = half the height: fully round ends": "Maximum = halbe Höhe: vollständig runde Enden"
+  },
+  "Medium": {
+    "Medium": "Mittel"
+  },
+  "Menu": {
+    "Menu": "Menü"
+  },
+  "Menu center": {
+    "Menu center": "Menümitte"
+  },
+  "Menu shown at reduced size": {
+    "Menu shown at reduced size": "Menü verkleinert dargestellt"
+  },
+  "Menu too small for all elements: enlarge it or remove an element": {
+    "Menu too small for all elements: enlarge it or remove an element": "Menü zu klein für alle Elemente: größer machen oder ein Element entfernen"
+  },
+  "Mini bar": {
+    "Mini bar": "Mini-Leiste"
+  },
+  "Minimal": {
+    "Minimal": "Minimal"
+  },
+  "Move down": {
+    "Move down": "Nach unten"
+  },
+  "Move up": {
+    "Move up": "Nach oben"
+  },
+  "Moves the icon toward the text": {
+    "Moves the icon toward the text": "Schiebt das Icon zum Text hin"
+  },
+  "My icons": {
+    "My icons": "Meine Icons"
+  },
+  "Name": {
+    "Name": "Name"
+  },
+  "Name (for apps also the description) when hovering over a tile": {
+    "Name (for apps also the description) when hovering over a tile": "Name (bei Apps auch die Beschreibung), wenn die Maus auf einer Kachel ruht"
+  },
+  "Name and description when hovering over an app": {
+    "Name and description when hovering over an app": "Name und Beschreibung, wenn die Maus auf einer App ruht"
+  },
+  "Negative values move the lines closer together": {
+    "Negative values move the lines closer together": "Negative Werte rücken die Zeilen enger zusammen"
+  },
+  "New category": {
+    "New category": "Neue Kategorie"
+  },
+  "New instance (copy)": {
+    "New instance (copy)": "Neue Instanz (Kopie)"
+  },
+  "New subcategory": {
+    "New subcategory": "Neue Sub-Kategorie"
+  },
+  "No icon selected": {
+    "No icon selected": "Kein Icon gewählt"
+  },
+  "None": {
+    "None": "Keine"
+  },
+  "Normal": {
+    "Normal": "Normal"
+  },
+  "not set": {
+    "not set": "nicht gesetzt"
+  },
+  "Not set (element default)": {
+    "Not set (element default)": "Nicht gesetzt (Standard des Elements)"
+  },
+  "Number of files and subfolders in a found folder": {
+    "Number of files and subfolders in a found folder": "Anzahl der Dateien und Unterordner in einem gefundenen Ordner"
+  },
+  "Off": {
+    "Off": "Aus"
+  },
+  "Off: fully opaque": {
+    "Off: fully opaque": "Aus: voll deckend"
+  },
+  "OK": {
+    "OK": "OK"
+  },
+  "On both sides of the title: to the frame and to the tiles; the title sits in the middle": {
+    "On both sides of the title: to the frame and to the tiles; the title sits in the middle": "Auf beiden Seiten des Titels: zum Rahmen und zu den Kacheln; der Titel sitzt in der Mitte"
+  },
+  "On hover": {
+    "On hover": "Beim Überfahren mit der Maus"
+  },
+  "On large tiles": {
+    "On large tiles": "Auf großen Kacheln"
+  },
+  "One app per row, full canvas width": {
+    "One app per row, full canvas width": "Eine App pro Zeile, so breit wie die Karte"
+  },
+  "Open folder or file": {
+    "Open folder or file": "Ordner oder Datei öffnen"
+  },
+  "Opening animation": {
+    "Opening animation": "Animation beim Öffnen"
+  },
+  "Order and visibility. Hidden sections are hidden only in CustomMenu. If DMS shows only folders, they appear under \"Files\".": {
+    "Order and visibility. Hidden sections are hidden only in CustomMenu. If DMS shows only folders, they appear under \"Files\".": "Reihenfolge und Sichtbarkeit. Ausgeblendete Rubriken fehlen nur im CustomMenu. Zeigt DMS nur Ordner, laufen sie unter „Dateien“."
+  },
+  "Other apps": {
+    "Other apps": "Übrige Apps"
+  },
+  "Overwrite \"%1\"": {
+    "Overwrite \"%1\"": "„%1“ überschreiben"
+  },
+  "Padding": {
+    "Padding": "Innenabstand"
+  },
+  "Parent folders": {
+    "Parent folders": "Übergeordnete Ordner"
+  },
+  "Pencil in the menu: rearrange the elements": {
+    "Pencil in the menu: rearrange the elements": "Stift im Menü: Elemente anordnen"
+  },
+  "Percentage of screen": {
+    "Percentage of screen": "Prozent des Bildschirms"
+  },
+  "Pin to Dock": {
+    "Pin to Dock": "Ans Dock anheften"
+  },
+  "Pixels": {
+    "Pixels": "Pixel"
+  },
+  "Placeholder text": {
+    "Placeholder text": "Hinweistext"
+  },
+  "Plugins": {
+    "Plugins": "Plugins"
+  },
+  "Position": {
+    "Position": "Position"
+  },
+  "Preset": {
+    "Preset": "Vorlage"
+  },
+  "Primary": {
+    "Primary": "Primär"
+  },
+  "Primary Container": {
+    "Primary Container": "Primary Container"
+  },
+  "Profile name": {
+    "Profile name": "Profilname"
+  },
+  "Quick access in the icon picker (Edit App)": {
+    "Quick access in the icon picker (Edit App)": "Als Schnellzugriff in der Icon-Auswahl (App bearbeiten)"
+  },
+  "Relative to the search field": {
+    "Relative to the search field": "Bezogen auf das Suchfeld"
+  },
+  "Remove badge": {
+    "Remove badge": "Badge entfernen"
+  },
+  "Remove element": {
+    "Remove element": "Element entfernen"
+  },
+  "Remove tile": {
+    "Remove tile": "Kachel entfernen"
+  },
+  "Rename": {
+    "Rename": "Umbenennen"
+  },
+  "Reset": {
+    "Reset": "Zurücksetzen"
+  },
+  "Reset to DMS order and show all": {
+    "Reset to DMS order and show all": "DMS-Reihenfolge, alle zeigen"
+  },
+  "Reset to template": {
+    "Reset to template": "Auf Vorlage zurücksetzen"
+  },
+  "Restart DMS": {
+    "Restart DMS": "DMS neu starten"
+  },
+  "Restore deleted DMS categories": {
+    "Restore deleted DMS categories": "Gelöschte DMS-Kategorien wiederherstellen"
+  },
+  "Result sections": {
+    "Result sections": "Rubriken der Suchergebnisse"
+  },
+  "Results inside a folder show a badge instead of the path to it, e.g. ~/Nextcloud → \"Nextcloud\". The longest matching folder wins.": {
+    "Results inside a folder show a badge instead of the path to it, e.g. ~/Nextcloud → \"Nextcloud\". The longest matching folder wins.": "Treffer unterhalb eines Ordners zeigen ein Badge statt des Pfads bis dorthin, z. B. ~/Nextcloud → „Nextcloud“. Der längste passende Ordner gewinnt."
+  },
+  "Right": {
+    "Right": "Rechts"
+  },
+  "Right-click an app to change its tile size; for more groups, add more tile elements.": {
+    "Right-click an app to change its tile size; for more groups, add more tile elements.": "Kachelgröße per Rechtsklick auf eine App; weitere Gruppen = weitere Shortcuts-Elemente."
+  },
+  "Row": {
+    "Row": "Reihe"
+  },
+  "Row: tiles fill the element row by row in this order; widen the element to fit more per row. A spacer shifts the following tiles by its length: to the right within a row, down in a single column. Add apps by dragging them onto the element. Hold to confirm uses DMS' duration (power menu settings).": {
+    "Row: tiles fill the element row by row in this order; widen the element to fit more per row. A spacer shifts the following tiles by its length: to the right within a row, down in a single column. Add apps by dragging them onto the element. Hold to confirm uses DMS' duration (power menu settings).": "Reihe: Die Kacheln füllen das Element Zeile für Zeile in dieser Reihenfolge; das Element breiter ziehen für mehr pro Zeile. Ein Abstand verschiebt die folgenden Kacheln um seine Länge: in einer Zeile nach rechts, in einer einzelnen Spalte nach unten. Apps kommen per Ziehen auf das Element dazu. Gedrückthalten nutzt DMS' Dauer (Einstellungen des Ein/Aus-Menüs)."
+  },
+  "Same as all": {
+    "Same as all": "Wie bei allen"
+  },
+  "Same as Appearance": {
+    "Same as Appearance": "Wie in „Aussehen der 4 Ebenen“"
+  },
+  "Same as category chips": {
+    "Same as category chips": "Wie die Kategorie-Chips"
+  },
+  "Same as DMS": {
+    "Same as DMS": "Wie in DMS"
+  },
+  "Same as normal chips": {
+    "Same as normal chips": "Wie die normalen Chips"
+  },
+  "same as result sections": {
+    "same as result sections": "wie Rubriken"
+  },
+  "Same as result sections": {
+    "Same as result sections": "Wie Rubriken"
+  },
+  "Save": {
+    "Save": "Speichern"
+  },
+  "Save as new profile": {
+    "Save as new profile": "Als neues Profil speichern"
+  },
+  "Save profile": {
+    "Save profile": "Profil speichern"
+  },
+  "Saved as ~/.local/share/applications/%1 — applies system-wide.": {
+    "Saved as ~/.local/share/applications/%1 — applies system-wide.": "Gespeichert als ~/.local/share/applications/%1, gilt systemweit."
+  },
+  "Screen center": {
+    "Screen center": "Bildschirmmitte"
+  },
+  "Scrolling content fades out at the top and bottom of the element": {
+    "Scrolling content fades out at the top and bottom of the element": "Scrollender Inhalt blendet oben und unten im Element weich aus"
+  },
+  "Search": {
+    "Search": "Suche"
+  },
+  "Search apps": {
+    "Search apps": "Apps suchen"
+  },
+  "Search scope": {
+    "Search scope": "Suchfilter"
+  },
+  "Secondary": {
+    "Secondary": "Sekundär"
+  },
+  "Secondary Container": {
+    "Secondary Container": "Secondary Container"
+  },
+  "Select when the menu opens": {
+    "Select when the menu opens": "Beim Öffnen auswählen"
+  },
+  "Selected": {
+    "Selected": "Ausgewählt"
+  },
+  "Selected category": {
+    "Selected category": "Ausgewählte Kategorie"
+  },
+  "Selected when the menu opens": {
+    "Selected when the menu opens": "Beim Öffnen ausgewählt"
+  },
+  "Sets all spacing to 0 and shrinks the menu to fit its elements, e.g. for a small extra menu. You can add spacing again afterwards.": {
+    "Sets all spacing to 0 and shrinks the menu to fit its elements, e.g. for a small extra menu. You can add spacing again afterwards.": "Setzt alle Abstände auf 0 und verkleinert das Menü auf die Größe seiner Elemente, z. B. für ein kleines Zusatzmenü. Abstände lassen sich danach wieder hinzufügen."
+  },
+  "Sets the options below; you can change them afterwards": {
+    "Sets the options below; you can change them afterwards": "Setzt die Optionen darunter, danach frei änderbar"
+  },
+  "Settings button": {
+    "Settings button": "Einstellungs-Button"
+  },
+  "Shadow": {
+    "Shadow": "Schatten"
+  },
+  "Shadow around the free-standing menu; only if the popout shadow is enabled in DMS": {
+    "Shadow around the free-standing menu; only if the popout shadow is enabled in DMS": "Schatten um das freie Menü; nur wenn der Popout-Schatten in DMS aktiv ist"
+  },
+  "Show \"Hidden\"": {
+    "Show \"Hidden\"": "„Versteckt“ anzeigen"
+  },
+  "Show again": {
+    "Show again": "Wieder einblenden"
+  },
+  "Show App": {
+    "Show App": "App einblenden"
+  },
+  "Show app names": {
+    "Show app names": "App-Namen anzeigen"
+  },
+  "Show chips": {
+    "Show chips": "Chips anzeigen"
+  },
+  "Show descriptions": {
+    "Show descriptions": "Beschreibungen anzeigen"
+  },
+  "Show grid": {
+    "Show grid": "Raster einblenden"
+  },
+  "Show icon": {
+    "Show icon": "Icon anzeigen"
+  },
+  "Show icons": {
+    "Show icons": "Icons anzeigen"
+  },
+  "Show location": {
+    "Show location": "Ort anzeigen"
+  },
+  "Show names": {
+    "Show names": "Namen anzeigen"
+  },
+  "Show section": {
+    "Show section": "Rubrik einblenden"
+  },
+  "Show typed text": {
+    "Show typed text": "Getippten Text anzeigen"
+  },
+  "Shown each time the menu opens. Without a categories element, all apps are shown.": {
+    "Shown each time the menu opens. Without a categories element, all apps are shown.": "Wird bei jedem Öffnen des Menüs gezeigt. Ohne Kategorien-Element im Menü: immer alle Apps."
+  },
+  "Shown while the field is empty. Empty = \"%1\"": {
+    "Shown while the field is empty. Empty = \"%1\"": "Wird angezeigt, solange das Feld leer ist. Leer = „%1“"
+  },
+  "Shut down": {
+    "Shut down": "Ausschalten"
+  },
+  "Single column": {
+    "Single column": "Eine Spalte"
+  },
+  "Size": {
+    "Size": "Größe"
+  },
+  "Size and position": {
+    "Size and position": "Größe und Position"
+  },
+  "Size for \"%1\"": {
+    "Size for \"%1\"": "Größe für „%1“"
+  },
+  "Size of one cell; tiles: small 1 × 1, large 2 × 2 cells. The element sizes itself to its tiles; in edit mode its width sets the cells per row.": {
+    "Size of one cell; tiles: small 1 × 1, large 2 × 2 cells. The element sizes itself to its tiles; in edit mode its width sets the cells per row.": "Größe einer Zelle; Kacheln: klein 1 × 1, groß 2 × 2 Zellen. Das Element passt sich seinen Kacheln an; im Bearbeiten-Modus legt seine Breite die Zellen pro Zeile fest."
+  },
+  "Size, spacing and icon": {
+    "Size, spacing and icon": "Größe, Abstände und Icon"
+  },
+  "Size: %1": {
+    "Size: %1": "Größe: %1"
+  },
+  "Small": {
+    "Small": "Klein"
+  },
+  "Space below the heading": {
+    "Space below the heading": "Abstand unter der Überschrift"
+  },
+  "Space between an element's background edge and its content, for all elements (each element can set its own in its background settings)": {
+    "Space between an element's background edge and its content, for all elements (each element can set its own in its background settings)": "Abstand zwischen dem Rand der Elementfläche und ihrem Inhalt, für alle Elemente (ein Element kann in seinen Hintergrund-Einstellungen einen eigenen haben)"
+  },
+  "Space between apps in a row": {
+    "Space between apps in a row": "Abstand zwischen den Apps nebeneinander"
+  },
+  "Space between icon and tile edge; less = larger icon": {
+    "Space between icon and tile edge; less = larger icon": "Platz zwischen Icon und Kachelrand; weniger = größeres Icon"
+  },
+  "Space between rows": {
+    "Space between rows": "Abstand zwischen den Zeilen"
+  },
+  "Space between sections": {
+    "Space between sections": "Abstand zwischen Rubriken"
+  },
+  "Space between subcategories": {
+    "Space between subcategories": "Abstand zwischen Sub-Kategorien"
+  },
+  "Space between the background edge and the content (only with a background or border)": {
+    "Space between the background edge and the content (only with a background or border)": "Abstand zwischen Hintergrundrand und Inhalt (nur mit Hintergrund oder Rahmen)"
+  },
+  "Space between the canvas edge and the elements. Without a canvas surface, it adds to the canvas margin.": {
+    "Space between the canvas edge and the elements. Without a canvas surface, it adds to the canvas margin.": "Abstand zwischen Canvas-Rand und den Elementen. Ohne Canvas-Fläche addiert er sich zum Abstand des Canvas."
+  },
+  "Spacer": {
+    "Spacer": "Abstand"
+  },
+  "Spacing": {
+    "Spacing": "Abstände"
+  },
+  "Spacing between chips": {
+    "Spacing between chips": "Abstand zwischen den Chips"
+  },
+  "Spacing between tiles": {
+    "Spacing between tiles": "Abstand zwischen Kacheln"
+  },
+  "Style": {
+    "Style": "Stil"
+  },
+  "Style for": {
+    "Style for": "Optik für"
+  },
+  "Subcategories": {
+    "Subcategories": "Sub-Kategorien"
+  },
+  "Suggestions": {
+    "Suggestions": "Vorschläge"
+  },
+  "Surface": {
+    "Surface": "Surface"
+  },
+  "Surface Container": {
+    "Surface Container": "Surface Container"
+  },
+  "Surface High": {
+    "Surface High": "Surface High"
+  },
+  "Surface Highest": {
+    "Surface Highest": "Surface Highest"
+  },
+  "Surface Low": {
+    "Surface Low": "Surface Low"
+  },
+  "Surface Lowest": {
+    "Surface Lowest": "Surface Lowest"
+  },
+  "Surface Variant": {
+    "Surface Variant": "Surface Variant"
+  },
+  "Suspend": {
+    "Suspend": "Bereitschaft"
+  },
+  "Switch to \"%1\"?": {
+    "Switch to \"%1\"?": "Zu „%1“ wechseln?"
+  },
+  "Symbol icons only (e.g. buttons); app icons keep their colors. An app's own color (right-click) takes precedence.": {
+    "Symbol icons only (e.g. buttons); app icons keep their colors. An app's own color (right-click) takes precedence.": "Nur Symbol-Icons (z. B. die Buttons); App-Icons behalten ihre Farben. Eine eigene Farbe einer App (Rechtsklick) hat Vorrang."
+  },
+  "Symbol icons use the colors below; icon files keep their own": {
+    "Symbol icons use the colors below; icon files keep their own": "Symbol-Icons nehmen die Farben unten an, Icon-Dateien behalten ihre eigenen"
+  },
+  "System-wide": {
+    "System-wide": "Systemweit"
+  },
+  "Template": {
+    "Template": "Vorlage"
+  },
+  "Tertiary": {
+    "Tertiary": "Tertiär"
+  },
+  "Tertiary Container": {
+    "Tertiary Container": "Tertiary Container"
+  },
+  "Text": {
+    "Text": "Text"
+  },
+  "Text alignment": {
+    "Text alignment": "Textausrichtung"
+  },
+  "Text background": {
+    "Text background": "Text-Hintergrund"
+  },
+  "Text color": {
+    "Text color": "Textfarbe"
+  },
+  "Text size": {
+    "Text size": "Textgröße"
+  },
+  "The corner radius follows the menu surface (its radius minus the gap between them, so both curves run parallel).": {
+    "The corner radius follows the menu surface (its radius minus the gap between them, so both curves run parallel).": "Eckenradius: folgt der Menüfläche (ihr Radius minus der Abstand dazwischen, damit beide Kurven parallel laufen)."
+  },
+  "The current settings (%1 changes) are not saved in a profile. Save them first?": {
+    "The current settings (%1 changes) are not saved in a profile. Save them first?": "Die aktuellen Einstellungen (%1 Änderungen) sind in keinem Profil gespeichert. Vorher speichern?"
+  },
+  "The field has focus while the menu is open: border (and icon, if set) in the focus color, border 1 px thicker. Off: always the normal look.": {
+    "The field has focus while the menu is open: border (and icon, if set) in the focus color, border 1 px thicker. Off: always the normal look.": "Das Feld hat den Fokus, solange das Menü offen ist: Rahmen (und Icon, falls eingestellt) in der Fokusfarbe, der Rahmen ein Pixel dicker. Aus: immer das normale Aussehen."
+  },
+  "The first search result, with or without a search field": {
+    "The first search result, with or without a search field": "Den ersten Treffer der Suche, mit oder ohne Suchfeld"
+  },
+  "The folder containing a result, shown as its description (even when app descriptions are off)": {
+    "The folder containing a result, shown as its description (even when app descriptions are off)": "Der Ordner, in dem ein Treffer liegt, als Beschreibung (auch wenn Beschreibungen für Apps aus sind)"
+  },
+  "The icon CustomMenu shows in the bar": {
+    "The icon CustomMenu shows in the bar": "Icon des CustomMenus in der Leiste"
+  },
+  "The icon disappears as soon as there is text in the field": {
+    "The icon disappears as soon as there is text in the field": "Das Icon verschwindet, sobald Text im Feld steht"
+  },
+  "The menu is narrowed so the settings window fits next to it and you can see your changes. It returns to fullscreen when you close the settings.": {
+    "The menu is narrowed so the settings window fits next to it and you can see your changes. It returns to fullscreen when you close the settings.": "Das Menü wird schmaler dargestellt, damit das Einstellungsfenster daneben passt und du deine Änderungen siehst. Nach dem Schließen der Einstellungen ist es wieder Vollbild."
+  },
+  "The menu is narrowed so the settings window fits next to it and you can see your changes. It returns to its full size when you close the settings.": {
+    "The menu is narrowed so the settings window fits next to it and you can see your changes. It returns to its full size when you close the settings.": "Das Menü wird schmaler dargestellt, damit das Einstellungsfenster daneben passt und du deine Änderungen siehst. Nach dem Schließen der Einstellungen hat es wieder seine volle Größe."
+  },
+  "The menu's backmost surface (behind the canvas). Default: DMS' popout surface with its blur; corner radius, border and blur then come from DMS. Any other color replaces it with a custom surface; a docked menu is detached for this, because DMS draws it as part of its frame.": {
+    "The menu's backmost surface (behind the canvas). Default: DMS' popout surface with its blur; corner radius, border and blur then come from DMS. Any other color replaces it with a custom surface; a docked menu is detached for this, because DMS draws it as part of its frame.": "Die hinterste Fläche des Menüs (hinter dem Canvas). Standard: DMS' Popout-Fläche mit ihrer Unschärfe; Eckenradius, Rahmen und Unschärfe kommen dann von DMS. Jede andere Farbe ersetzt sie durch eine eigene Fläche; ein angedocktes Menü wird dafür gelöst (DMS zeichnet es als Teil seines Rahmens)."
+  },
+  "The placeholder text shown while the field is empty": {
+    "The placeholder text shown while the field is empty": "Der Hinweistext, solange das Feld leer ist"
+  },
+  "The size belongs to the profile \"%1\"; changing it here changes the profile. Your own size returns when you select another profile.": {
+    "The size belongs to the profile \"%1\"; changing it here changes the profile. Your own size returns when you select another profile.": "Die Größe gehört zum Profil „%1“; Änderungen hier ändern das Profil. Deine eigene Größe gilt wieder, sobald du ein anderes Profil wählst."
+  },
+  "The typed text": {
+    "The typed text": "Der eingegebene Text"
+  },
+  "Tile": {
+    "Tile": "Kachel"
+  },
+  "Tile background": {
+    "Tile background": "Kachel-Hintergrund"
+  },
+  "Tiles": {
+    "Tiles": "Kacheln"
+  },
+  "Title (optional)": {
+    "Title (optional)": "Titel (optional)"
+  },
+  "Title alignment": {
+    "Title alignment": "Ausrichtung des Titels"
+  },
+  "Title position": {
+    "Title position": "Position des Titels"
+  },
+  "Title spacing": {
+    "Title spacing": "Abstand des Titels"
+  },
+  "Tooltips": {
+    "Tooltips": "Tooltips"
+  },
+  "Top": {
+    "Top": "Oben"
+  },
+  "Transparency": {
+    "Transparency": "Transparenz"
+  },
+  "Transparency level": {
+    "Transparency level": "Transparenzstufe"
+  },
+  "Transparent only while no windows are open on the menu's screen (the wallpaper is visible); otherwise opaque. DMS' settings window does not count.": {
+    "Transparent only while no windows are open on the menu's screen (the wallpaper is visible); otherwise opaque. DMS' settings window does not count.": "Nur durchsichtig, solange auf dem Bildschirm des Menüs keine Fenster offen sind (das Hintergrundbild ist sichtbar); sonst deckend. Das DMS-Einstellungsfenster zählt nicht als Fenster."
+  },
+  "Transparent only without windows": {
+    "Transparent only without windows": "Transparenz nur ohne Fenster"
+  },
+  "turned off in the settings": {
+    "turned off in the settings": "in den Einstellungen ausgeschaltet"
+  },
+  "Undo": {
+    "Undo": "Rückgängig"
+  },
+  "Uninstall": {
+    "Uninstall": "Deinstallieren"
+  },
+  "Unpin from Dock": {
+    "Unpin from Dock": "Vom Dock lösen"
+  },
+  "Up": {
+    "Up": "Nach oben"
+  },
+  "Use icon": {
+    "Use icon": "Icon übernehmen"
+  },
+  "Vertical alignment": {
+    "Vertical alignment": "Ausrichtung vertikal"
+  },
+  "Vertical offset": {
+    "Vertical offset": "Versatz vertikal"
+  },
+  "Vertical spacing": {
+    "Vertical spacing": "Abstand senkrecht"
+  },
+  "Vertically and horizontally": {
+    "Vertically and horizontally": "Vertikal und horizontal"
+  },
+  "Vertically only": {
+    "Vertically only": "Nur vertikal"
+  },
+  "Weight": {
+    "Weight": "Schriftstärke"
+  },
+  "Where app changes apply": {
+    "Where app changes apply": "Wo App-Änderungen gelten"
+  },
+  "Where the content sits when the element is larger than it": {
+    "Where the content sits when the element is larger than it": "Wo der Inhalt sitzt, wenn das Element größer ist als er"
+  },
+  "Where the menu comes from when it opens (and where it goes when it closes). Timing follows DMS. Only for a free-standing menu (position \"Free\" or custom menu surface); when docked, DMS' frame decides.": {
+    "Where the menu comes from when it opens (and where it goes when it closes). Timing follows DMS. Only for a free-standing menu (position \"Free\" or custom menu surface); when docked, DMS' frame decides.": "Woher das Menü beim Öffnen kommt (und wohin es beim Schließen geht). Zeitverlauf wie in DMS. Nur für ein frei stehendes Menü (Position „Frei“ oder eigene Menüfläche); angedockt bestimmt der DMS-Rahmen."
+  },
+  "While all chips fit; a scrolling list starts at the top": {
+    "While all chips fit; a scrolling list starts at the top": "Solange alle Chips hineinpassen; eine scrollende Liste beginnt oben"
+  },
+  "While searching, the apps element shows the results in sections like DMS' launcher (apps, files, settings, one per launcher plugin).": {
+    "While searching, the apps element shows the results in sections like DMS' launcher (apps, files, settings, one per launcher plugin).": "Beim Suchen zeigt das Apps-Element die Treffer in Rubriken wie der DMS-Launcher (Apps, Dateien, Einstellungen, eine je Launcher-Plugin)."
+  },
+  "While the surface is opaque because windows are open, texts, icons and headings use their default colors instead of the custom ones (DMS' settings window does not count)": {
+    "While the surface is opaque because windows are open, texts, icons and headings use their default colors instead of the custom ones (DMS' settings window does not count)": "Solange die Fläche wegen offener Fenster deckend ist: Texte, Icons und Überschriften in ihren Standardfarben statt den eingestellten (das DMS-Einstellungsfenster zählt nicht als Fenster)"
+  },
+  "White, 85% transparent": {
+    "White, 85% transparent": "Weiß, 85 % transparent"
+  },
+  "Width": {
+    "Width": "Breite"
+  },
+  "Width of the menu": {
+    "Width of the menu": "Breite des Menüs"
+  },
+  "Width of the menu, as a percentage of the screen width": {
+    "Width of the menu, as a percentage of the screen width": "Breite des Menüs in Prozent der Bildschirmbreite"
+  },
+  "Without a search field: shows the typed text at the top right above the apps, with a button to clear it": {
+    "Without a search field: shows the typed text at the top right above the apps, with a button to clear it": "Ohne Suchfeld: der getippte Text oben rechts über den Apps, mit Knopf zum Leeren"
+  }
+}

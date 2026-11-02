@@ -1,0 +1,8 @@
+material-symbols.json: names of the Material Symbols icons, taken from
+https://github.com/google/material-design-icons (variablefont/*.codepoints).
+Copyright Google LLC, licensed under the Apache License 2.0.
+
+font-logos/: the font-logos font (font-logos.ttf) and its LICENSE, from
+https://github.com/lukas-w/font-logos release v1.4.0 (Unlicense, public
+domain). Name → code point map in ../FontLogos.js, taken from its
+font-logos.css. The logos are trademarks of their projects.

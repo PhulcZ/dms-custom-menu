@@ -1,0 +1,20 @@
+{
+    "id": "customMenu",
+    "name": "CustomMenu",
+    "description": "Customizable menu for the DMS bar (Dux Shell): start menu, launcher, buttons",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "PhulcZ",
+    "icon": "apps",
+    "type": "widget",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "component": "./CustomMenuWidget.qml",
+    "settings": "./CustomMenuSettings.qml",
+    "requires_dms": ">=2.0.0",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}

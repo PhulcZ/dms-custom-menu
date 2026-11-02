@@ -1,0 +1,181 @@
+.pragma library
+
+// Distro and project logos of the font-logos font (assets/font-logos,
+// https://github.com/lukas-w/font-logos v1.4.0, Unlicense): name → code
+// point, taken from its font-logos.css. Icon values "logo:<name>".
+var codepoints = {
+    "almalinux": 0xF31D,
+    "alpine": 0xF300,
+    "aosc": 0xF301,
+    "apple": 0xF302,
+    "archcraft": 0xF345,
+    "archlabs": 0xF31E,
+    "archlinux": 0xF303,
+    "arcolinux": 0xF346,
+    "arduino": 0xF34B,
+    "artix": 0xF31F,
+    "awesome": 0xF354,
+    "biglinux": 0xF347,
+    "bspwm": 0xF355,
+    "budgie": 0xF320,
+    "cachyos": 0xF385,
+    "centos": 0xF304,
+    "cinnamon": 0xF35F,
+    "codeberg": 0xF330,
+    "coreos": 0xF305,
+    "crystal": 0xF348,
+    "debian": 0xF306,
+    "deepin": 0xF321,
+    "devuan": 0xF307,
+    "docker": 0xF308,
+    "dwm": 0xF356,
+    "elementary": 0xF309,
+    "endeavour": 0xF322,
+    "enlightenment": 0xF357,
+    "fdroid": 0xF36A,
+    "fedora": 0xF30A,
+    "fedora-inverse": 0xF30B,
+    "ferris": 0xF323,
+    "ffmpeg": 0xF384,
+    "flathub": 0xF324,
+    "fluxbox": 0xF358,
+    "forgejo": 0xF335,
+    "fosdem": 0xF36B,
+    "freebsd": 0xF30C,
+    "freecad": 0xF336,
+    "freedesktop": 0xF360,
+    "garuda": 0xF337,
+    "gentoo": 0xF30D,
+    "gimp": 0xF338,
+    "gitea": 0xF339,
+    "gnome": 0xF361,
+    "gnu-guix": 0xF325,
+    "gtk": 0xF362,
+    "hyperbola": 0xF33A,
+    "hyprland": 0xF359,
+    "i3": 0xF35A,
+    "illumos": 0xF326,
+    "inkscape": 0xF33B,
+    "jwm": 0xF35B,
+    "kali-linux": 0xF327,
+    "kde": 0xF373,
+    "kde-neon": 0xF331,
+    "kde-plasma": 0xF332,
+    "kdenlive": 0xF33C,
+    "kicad": 0xF34C,
+    "krita": 0xF33D,
+    "kubuntu": 0xF333,
+    "kubuntu-inverse": 0xF334,
+    "leap": 0xF37E,
+    "libreoffice": 0xF376,
+    "libreofficebase": 0xF377,
+    "libreofficecalc": 0xF378,
+    "libreofficedraw": 0xF379,
+    "libreofficeimpress": 0xF37A,
+    "libreofficemath": 0xF37B,
+    "libreofficewriter": 0xF37C,
+    "linuxmint": 0xF30E,
+    "linuxmint-inverse": 0xF30F,
+    "locos": 0xF349,
+    "lxde": 0xF363,
+    "lxle": 0xF33E,
+    "lxqt": 0xF364,
+    "mageia": 0xF310,
+    "mandriva": 0xF311,
+    "manjaro": 0xF312,
+    "mate": 0xF365,
+    "mpv": 0xF36E,
+    "mxlinux": 0xF33F,
+    "neovim": 0xF36F,
+    "nixos": 0xF313,
+    "nobara": 0xF380,
+    "octoprint": 0xF34D,
+    "openbsd": 0xF328,
+    "openscad": 0xF34E,
+    "opensuse": 0xF314,
+    "openwrt": 0xF382,
+    "osh": 0xF34F,
+    "oshwa": 0xF350,
+    "osi": 0xF36C,
+    "parabola": 0xF340,
+    "parrot": 0xF329,
+    "pop-os": 0xF32A,
+    "postmarketos": 0xF374,
+    "prusaslicer": 0xF351,
+    "puppy": 0xF341,
+    "qt": 0xF375,
+    "qtile": 0xF35C,
+    "qubesos": 0xF342,
+    "raspberry-pi": 0xF315,
+    "redhat": 0xF316,
+    "reprap": 0xF352,
+    "riscv": 0xF353,
+    "river": 0xF381,
+    "rocky-linux": 0xF32B,
+    "sabayon": 0xF317,
+    "slackware": 0xF318,
+    "slackware-inverse": 0xF319,
+    "snappy": 0xF32C,
+    "solus": 0xF32D,
+    "sway": 0xF35D,
+    "tails": 0xF343,
+    "thunderbird": 0xF370,
+    "tor": 0xF371,
+    "trisquel": 0xF344,
+    "tumbleweed": 0xF37D,
+    "tux": 0xF31A,
+    "typst": 0xF37F,
+    "ubuntu": 0xF31B,
+    "ubuntu-inverse": 0xF31C,
+    "vanilla": 0xF366,
+    "void": 0xF32E,
+    "vscodium": 0xF372,
+    "wayland": 0xF367,
+    "wikimedia": 0xF36D,
+    "wireguard": 0xF383,
+    "xerolinux": 0xF34A,
+    "xfce": 0xF368,
+    "xmonad": 0xF35E,
+    "xorg": 0xF369,
+    "zorin": 0xF32F
+};
+
+var names = Object.keys(codepoints);
+
+function glyph(name) {
+    const c = codepoints[name];
+    return c ? String.fromCodePoint(c) : "";
+}
+
+// os-release IDs that are named differently in the font
+var osIds = {
+    "arch": "archlinux",
+    "opensuse-tumbleweed": "tumbleweed",
+    "opensuse-leap": "leap",
+    "opensuse-slowroll": "opensuse",
+    "pop": "pop-os",
+    "rhel": "redhat",
+    "endeavouros": "endeavour",
+    "kali": "kali-linux",
+    "rocky": "rocky-linux",
+    "neon": "kde-neon",
+    "raspbian": "raspberry-pi",
+    "manjaro-arm": "manjaro",
+    "xerolinux": "xerolinux"
+};
+
+// The logo of the running distribution from the text of /etc/os-release:
+// its ID, else the IDs it is like (ID_LIKE), else Tux
+function distroLogo(osRelease) {
+    const field = key => {
+        const m = String(osRelease || "").match(new RegExp("^" + key + "=(.*)$", "m"));
+        return m ? m[1].trim().replace(/^["']|["']$/g, "").toLowerCase() : "";
+    };
+    const ids = [field("ID")].concat(field("ID_LIKE").split(/\s+/)).filter(x => x !== "");
+    for (const id of ids) {
+        const name = osIds[id] ?? id;
+        if (codepoints[name])
+            return name;
+    }
+    return "tux";
+}
