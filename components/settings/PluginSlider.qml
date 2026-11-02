@@ -69,7 +69,7 @@ Column {
             anchors.verticalCenter: parent.verticalCenter
             iconName: "restart_alt"
             buttonSize: 28
-            iconSize: 16
+            iconSize: Theme.iconSizeSmall
             tooltipText: I18n.trFor("customMenu", "Default")
             onClicked: store.clear()
         }

@@ -285,7 +285,7 @@ var builtIn = {
             "catChipSelColorMode": "none",
             "tlAreaBorderWidth": 0,
             "tlAreaBorderColorMode": "default",
-            "subTitleSize": 11,
+            "subTitleSize": "theme.fontSizeSmall",
             "subTitleColorMode": "chipNested",
             "subLineColorMode": "chipNested",
             "menuSurfaceNormalTextWithWindows": true

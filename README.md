@@ -50,6 +50,8 @@ Edit mode: move, resize and align the elements on the grid.
   untested; moving the settings window next to the menu is Hyprland only.
 - Optional: [dsearch](https://github.com/AvengeMedia/danksearch) for files
   and folders in the search (the same as for the DMS launcher)
+- xdg-utils (`xdg-mime`): on first start, picks your default browser, file
+  manager and editor for the first tiles
 
 ## Installation
 
@@ -84,6 +86,8 @@ in the bar settings.
   *Apps › Where app changes apply: System-wide*, it writes a desktop file to
   `~/.local/share/applications` instead. *Reset* moves only files written by
   CustomMenu (marked `X-CustomMenu-Override=true`) to the trash.
+- **Command buttons** in a tile element run the command you enter through
+  `sh -c`.
 
 ## Note on DMS internals
 

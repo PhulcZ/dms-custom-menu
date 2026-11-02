@@ -589,7 +589,7 @@ FocusScope {
                 FlexIcon {
                     anchors.horizontalCenter: parent.horizontalCenter
                     icon: root.logoMode ? "logo:" + symbolCell.modelData : symbolCell.modelData
-                    size: 32
+                    size: Theme.iconSizeLarge
                     color: root.textColor
                 }
 

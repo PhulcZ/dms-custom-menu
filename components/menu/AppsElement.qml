@@ -36,7 +36,7 @@ Item {
             DIcon {
                 anchors.verticalCenter: parent.verticalCenter
                 name: "search"
-                size: 16
+                size: Theme.iconSizeSmall
                 color: Theme.onSecondaryContainer
             }
 
@@ -50,7 +50,7 @@ Item {
             DActionButton {
                 anchors.verticalCenter: parent.verticalCenter
                 iconName: "close"
-                iconSize: 14
+                iconSize: Theme.iconSizeSmall
                 iconColor: Theme.onSecondaryContainer
                 tooltipText: I18n.trFor("customMenu", "Clear search")
                 onClicked: menu.searchQuery = ""

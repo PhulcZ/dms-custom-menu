@@ -334,7 +334,7 @@ PopoutComponent {
                 DIcon {
                     anchors.centerIn: parent
                     name: "close"
-                    size: 32
+                    size: Theme.iconSizeLarge
                     color: removeDrop.containsDrag ? Theme.error : menu.appTextColor
                 }
 
@@ -1178,7 +1178,7 @@ PopoutComponent {
                                         // open_in_full points up right/down left: turned to
                                         // the corner it sits in (down right)
                                         rotation: parent.widthOnly ? 0 : 90
-                                        size: 16
+                                        size: Theme.iconSizeSmall
                                         color: Theme.primary
                                     }
                                 }

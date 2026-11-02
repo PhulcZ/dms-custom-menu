@@ -279,7 +279,7 @@ FocusScope {
                                 visible: swatch.modelData === ""
                                 anchors.centerIn: parent
                                 name: "format_color_reset"
-                                size: 16
+                                size: Theme.iconSizeSmall
                                 color: root.textColor
                             }
 
