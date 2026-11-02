@@ -1,7 +1,7 @@
 {
     "id": "customMenu",
     "name": "CustomMenu",
-    "description": "Customizable menu for the DMS bar (Dux Shell): start menu, launcher, buttons",
+    "description": "Highly customizable start menu and launcher: search, categories, app tiles and buttons, arranged freely on a grid",
     "version": "1.0.0",
     "license": "MIT",
     "author": "PhulcZ",
