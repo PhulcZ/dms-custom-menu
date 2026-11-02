@@ -5,8 +5,9 @@ const path = require("path");
 const vm = require("vm");
 const assert = require("assert");
 
-function load(file) {
-    const ctx = {};
+// imports: the .import names it uses, e.g. { "Defaults": loaded Defaults.js }
+function load(file, imports) {
+    const ctx = Object.assign({}, imports);
     vm.createContext(ctx);
     const src = fs.readFileSync(path.join(__dirname, "..", file), "utf8").replace(/^\.(pragma|import).*$/gm, "");
     vm.runInContext(src, ctx);
@@ -15,6 +16,7 @@ function load(file) {
 const Tile = load("TileLayout.js");
 const Fit = load("LayoutFit.js");
 const Defaults = load("Defaults.js");
+const Templates = load("Templates.js", { "Defaults": Defaults, "BuiltIn": load("BuiltInTemplates.js") });
 let passed = 0;
 function test(name, fn) {
     fn();
@@ -53,6 +55,10 @@ test("categories: stored by a key the language does not change", () => {
     assert.strictEqual(Defaults.dmsCategoryName(en, "dms:Game"), "Games");
     assert.strictEqual(Defaults.dmsCategoryKey(en, "Spiele"), "Spiele");
     assert.strictEqual(Defaults.dmsCategoryName(en, "custom:favorites"), "custom:favorites");
+});
+test("profiles: theme tokens become the theme's values", () => {
+    const r = Templates.resolveTheme({ "searchTextSize": "theme.fontSizeLarge", "appSpacing": 5, "categoryStyle": "chips" }, { "fontSizeLarge": 18 });
+    assert.deepStrictEqual(plain(r), { "searchTextSize": 18, "appSpacing": 5, "categoryStyle": "chips" });
 });
 test("fit: elements that fit keep their place", () => {
     const r = Fit.fit([{ "id": "a", "col": 0, "row": 0, "w": 2, "h": 2 }, { "id": "b", "col": 2, "row": 0, "w": 2, "h": 2 }], 4, 4, () => 1, () => 0, "", null);

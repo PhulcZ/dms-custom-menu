@@ -38,7 +38,6 @@ var appIconSize = 40;
 var appSpacing = 35;
 var appRowSpacing = 35;
 var appShowLabels = true;
-var textSize = 13;
 var layoutMode = "grid";
 var showSettingsButton = true;
 var showEditButton = true;
@@ -71,7 +70,6 @@ var chipBorderWidth = 0;
 // Text weight: "normal", "medium", "bold"
 var appTextWeight = "normal";
 var catTextWeight = "normal";
-var catTextSize = 12;
 // Text alignment in the category chips: "auto" (one column left, else centred), "left", "center"
 var catTextAlign = "auto";
 // Vertical place of the category chips while all fit: "start", "center", "end"
@@ -144,8 +142,6 @@ var searchShowQueryChip = true;
 var scUnit = 40;
 var scSpacing = 4;
 var scShowLabels = false;
-var scTextSize = 11;
-var scTitleSize = 13;
 
 // Where category assignments and hiding from the menu apply: "both" (CustomMenu + DMS launcher) or "menu"
 var categoryScope = "menu";
@@ -189,7 +185,6 @@ var searchScopeStyle = "field";
 // ("fill" = the whole width, top/bottom only)
 var searchScopeSide = "bottom";
 var searchScopeAlign = "fill";
-var searchScopeTextSize = 12;
 
 // Search result sections: space between heading and results
 var secTitleGap = 8;

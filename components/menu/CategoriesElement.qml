@@ -33,8 +33,13 @@ Item {
     readonly property real rowStep: menu.catChipHeight + menu.catChipRowSpacing
     readonly property int visibleRows: Math.max(1, Math.floor((height + menu.catChipRowSpacing) / rowStep))
 
-    Flickable {
+    // Own row-by-row wheel steps below: DFlickable's wheel, scroll bar
+    // and fade off
+    DFlickable {
         id: catFlick
+        wheelEnabled: false
+        showScrollBar: false
+        fadeEdges: false
         enabled: !menu.layoutEditing
         x: catElement.inset
         width: catElement.width - catElement.inset * 2

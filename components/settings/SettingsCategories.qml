@@ -187,7 +187,7 @@ Section {
                                         settingKey: "catTextSize"
                                         label: I18n.trFor("customMenu", "Size")
                                         resettable: true
-                                        defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Defaults.catTextSize)
+                                        defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Theme.fontSizeSmall)
                                         minimum: 8
                                         maximum: 28
                                         unit: "px"
@@ -398,7 +398,7 @@ Section {
                             label: I18n.trFor("customMenu", "Heading size")
                             resettable: true
                             unsetText: I18n.trFor("customMenu", "same as result sections")
-                            defaultValue: sectionRoot.settings.effectiveValue("secTitleSize", (sectionRoot.settings.effectiveValue("textSize", undefined) ?? sectionRoot.settings.sharedOr("allPieceTextSize", Defaults.textSize)) + 2)
+                            defaultValue: sectionRoot.settings.effectiveValue("secTitleSize", (sectionRoot.settings.effectiveValue("textSize", undefined) ?? sectionRoot.settings.sharedOr("allPieceTextSize", Theme.fontSizeSmall)) + 2)
                             minimum: 8
                             maximum: 28
                             unit: "px"

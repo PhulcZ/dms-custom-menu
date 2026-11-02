@@ -130,7 +130,7 @@ PluginComponent {
     // Settings as used everywhere below: stored values over the values of
     // the chosen template (Templates.js); the defaults come after that.
     readonly property string activeTemplate: instanceData.activeTemplate ?? "standard"
-    readonly property var templateValues: Templates.valuesOf(activeTemplate, pluginData.userTemplates)
+    readonly property var templateValues: Templates.resolveTheme(Templates.valuesOf(activeTemplate, pluginData.userTemplates), Theme)
     readonly property var rawCfg: Object.assign({}, templateValues, instanceData)
     // Menu surface opaque because windows are open ("transparency only
     // without windows") and "normal text then" on: the colours of texts,
@@ -706,7 +706,7 @@ PluginComponent {
             "spacing": v("Spacing", Defaults.scSpacing),
             "iconPadSmall": v("IconPadSmall", Defaults.scIconPadSmall),
             "iconPadLarge": v("IconPadLarge", Defaults.scIconPadLarge),
-            "textSize": inherit(p + "TextSize", "allPieceTextSize", Defaults.scTextSize, c),
+            "textSize": inherit(p + "TextSize", "allPieceTextSize", Theme.fontSizeSmall, c),
             "textWeight": fontWeight(inherit(p + "TextWeight", "allPieceTextWeight", "normal", c)),
             "textColor": catColor(p + "Text", Theme.surfaceText, "allPieceText", c),
             // Colour of all symbol icons (buttons, symbol app icons); "" =
@@ -716,7 +716,7 @@ PluginComponent {
             "tileRadius": inherit(p + "TileRadius", "allPieceRadius", Theme.cornerRadius, c),
             "tileBorderWidth": inherit(p + "TileBorderWidth", "allPieceBorderWidth", 0, c),
             "tileBorderColor": catColor(p + "TileBorder", Theme.outlineVariant, "allPieceBorder", c),
-            "titleSize": v("TitleSize", Defaults.scTitleSize),
+            "titleSize": v("TitleSize", Theme.fontSizeMedium),
             "titleColor": catColor(p + "Title", Theme.surfaceText, undefined, c),
             // Title band: side (top/bottom/left/right), alignment along it
             // (start/center/end), gap on both sides of the text
@@ -1021,7 +1021,7 @@ PluginComponent {
     // Width of the chips row beside the field (reported by the element)
     property real searchScopeWidth: 0
     readonly property real searchScopeExtra: !searchScopeBelow ? 0 : searchScopeAcross ? Theme.spacingS + searchScopeHeight : Math.max(0, searchScopeHeight - searchHeight)
-    readonly property real searchScopeTextSize: cfg.searchScopeTextSize ?? Defaults.searchScopeTextSize
+    readonly property real searchScopeTextSize: cfg.searchScopeTextSize ?? Theme.fontSizeSmall
     readonly property string searchScopeLabel: searchScopes.find(s => s.key === searchScope)?.text ?? ""
     onSearchScopeChanged: {
         // Not persisted as DMS' last launcher mode (last argument)
@@ -1293,7 +1293,7 @@ PluginComponent {
     readonly property string appTextAlign: cfg.appTextAlign ?? Defaults.appTextAlign
     readonly property bool appTextBackground: cfg.appTextBackground ?? Defaults.appTextBackground
     readonly property bool appFullWidth: cfg.appFullWidth ?? Defaults.appFullWidth
-    readonly property int textSize: inherit("textSize", "allPieceTextSize", Defaults.textSize)
+    readonly property int textSize: inherit("textSize", "allPieceTextSize", Theme.fontSizeSmall)
     // Icon of the widget in the bar (Material Symbols name)
     readonly property string barIcon: cfg.barIcon || Defaults.barIcon
     readonly property bool showEditButton: cfg.showEditButton ?? Defaults.showEditButton
@@ -1333,7 +1333,7 @@ PluginComponent {
         return name === "bold" ? Font.Bold : (name === "medium" ? Theme.fontWeightMedium : Font.Normal);
     }
     readonly property int appTextWeight: fontWeight(inherit("appTextWeight", "allPieceTextWeight", Defaults.appTextWeight))
-    readonly property real catTextSize: inherit("catTextSize", "allPieceTextSize", Defaults.catTextSize)
+    readonly property real catTextSize: inherit("catTextSize", "allPieceTextSize", Theme.fontSizeSmall)
     readonly property int catTextWeight: fontWeight(inherit("catTextWeight", "allPieceTextWeight", Defaults.catTextWeight))
     // Category chips hovered and selected (Categories › Chips): text weight
     // -1 = as the normal chips
@@ -2974,7 +2974,8 @@ PluginComponent {
     horizontalBarPill: Component {
         FlexIcon {
             icon: root.barIcon
-            size: Theme.iconSize - 6
+            // DMS' bar icon size (bar thickness, icon scale)
+            size: root.iconSizeLarge
             color: root.barIconColor
         }
     }
@@ -2982,7 +2983,8 @@ PluginComponent {
     verticalBarPill: Component {
         FlexIcon {
             icon: root.barIcon
-            size: Theme.iconSize - 6
+            // DMS' bar icon size (bar thickness, icon scale)
+            size: root.iconSizeLarge
             color: root.barIconColor
         }
     }

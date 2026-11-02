@@ -411,7 +411,7 @@ Item {
             placeholderText: I18n.trFor("customMenu", "Search apps")
             Keys.onEscapePressed: actionsEditor.pickingApp = false
         }
-        ListView {
+        DListView {
             id: appList
             anchors.top: appSearch.bottom
             anchors.topMargin: Theme.spacingM

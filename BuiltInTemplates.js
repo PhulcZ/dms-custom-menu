@@ -115,7 +115,7 @@ var builtIn = {
             "appSpacing": 10,
             "appRowSpacing": 10,
             "appTooltips": false,
-            "textSize": 12,
+            "textSize": "theme.fontSizeSmall",
             "appTextColorMode": "default",
             "layout": [
                 {
@@ -246,7 +246,7 @@ var builtIn = {
             "appSpacing": 10,
             "appRowSpacing": 10,
             "appTooltips": false,
-            "textSize": 12,
+            "textSize": "theme.fontSizeSmall",
             "appTextColorMode": "default",
             "layout": [
                 {
@@ -328,7 +328,7 @@ var builtIn = {
             "allPieceBorderWidth": 0,
             "allPieceBorderColorMode": "surfaceText",
             "cardColorMode": "none",
-            "allPieceTextSize": 11,
+            "allPieceTextSize": "theme.fontSizeSmall",
             "allPieceIconColorMode": "default",
             "appsAreaTransparent": true,
             "appsAreaTransparency": 0,
@@ -400,7 +400,7 @@ var builtIn = {
             "searchHeight": 56,
             "searchRadius": 28,
             "searchBorderWidth": 2,
-            "searchTextSize": 16,
+            "searchTextSize": "theme.fontSizeLarge",
             "searchFocusHighlight": true,
             "layout": [
                 {

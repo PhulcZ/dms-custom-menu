@@ -146,6 +146,17 @@ function rawValuesOf(id, userTemplates) {
     return builtIn[id]?.values ?? {};
 }
 
+// Values "theme.<name>" (e.g. "theme.fontSizeLarge") stand for the DMS
+// theme's value, so built-in profiles follow the user's font scale
+function resolveTheme(values, theme) {
+    const out = {};
+    for (const key of Object.keys(values)) {
+        const v = values[key];
+        out[key] = typeof v === "string" && v.startsWith("theme.") ? theme[v.slice(6)] : v;
+    }
+    return out;
+}
+
 // Setting values of a template id ("standard", "user:<name>"), without the
 // arrangement
 function valuesOf(id, userTemplates) {

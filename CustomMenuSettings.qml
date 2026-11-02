@@ -286,7 +286,7 @@ PluginSettings {
             return c.values;
         c.id = id;
         c.profiles = profiles;
-        c.values = Templates.valuesOf(id, profiles ?? {});
+        c.values = Templates.resolveTheme(Templates.valuesOf(id, profiles ?? {}), Theme);
         return c.values;
     }
     function templateValue(key) {
@@ -534,8 +534,7 @@ PluginSettings {
                                 }
                                 DTextField {
                                     x: Theme.spacingM
-                                    width: Math.min(parent.width - Theme.spacingM * 2, 520)
-                                    height: 40
+                                    width: parent.width - Theme.spacingM * 2
                                     readOnly: true
                                     text: "dms ipc call " + (root.editInstance ? "customMenu_" + root.editInstance : "customMenu") + " toggle"
                                 }

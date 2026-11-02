@@ -108,7 +108,7 @@ Section {
                             visible: searchScopeShow.value && searchScopeStyle.value !== "chips"
                             settingKey: "searchScopeTextSize"
                             label: I18n.trFor("customMenu", "Text size")
-                            defaultValue: Defaults.searchScopeTextSize
+                            defaultValue: Theme.fontSizeSmall
                             minimum: 8
                             maximum: 24
                             unit: "px"
@@ -216,7 +216,7 @@ Section {
                                                 PluginSlider {
                                                     settingKey: "scopeTextSize"
                                                     label: I18n.trFor("customMenu", "Size")
-                                                    defaultValue: sectionRoot.settings.effectiveValue("catTextSize", Defaults.catTextSize)
+                                                    defaultValue: sectionRoot.settings.effectiveValue("catTextSize", Theme.fontSizeSmall)
                                                     minimum: 8
                                                     maximum: 24
                                                     unit: "px"
@@ -326,7 +326,7 @@ Section {
                             settingKey: "secTitleSize"
                             label: I18n.trFor("customMenu", "Heading size")
                             resettable: true
-                            defaultValue: (sectionRoot.settings.effectiveValue("textSize", undefined) ?? sectionRoot.settings.sharedOr("allPieceTextSize", Defaults.textSize)) + 2
+                            defaultValue: (sectionRoot.settings.effectiveValue("textSize", undefined) ?? sectionRoot.settings.sharedOr("allPieceTextSize", Theme.fontSizeSmall)) + 2
                             minimum: 8
                             maximum: 28
                             unit: "px"

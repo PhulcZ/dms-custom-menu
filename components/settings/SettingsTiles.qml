@@ -242,7 +242,7 @@ Section {
                             settingKey: "tlTextSize"
                             label: I18n.trFor("customMenu", "Size")
                             resettable: true
-                            defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Defaults.scTextSize)
+                            defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Theme.fontSizeSmall)
                             minimum: 8
                             maximum: 28
                             unit: "px"
@@ -297,7 +297,7 @@ Section {
                         PluginSlider {
                             settingKey: "tlTitleSize"
                             label: I18n.trFor("customMenu", "Group title size")
-                            defaultValue: Defaults.scTitleSize
+                            defaultValue: Theme.fontSizeMedium
                             minimum: 8
                             maximum: 32
                             unit: "px"

@@ -338,7 +338,7 @@ Section {
                                         settingKey: "textSize"
                                         label: I18n.trFor("customMenu", "Size")
                                         resettable: true
-                                        defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Defaults.textSize)
+                                        defaultValue: sectionRoot.settings.sharedOr("allPieceTextSize", Theme.fontSizeSmall)
                                         minimum: 8
                                         maximum: 32
                                         unit: "px"

@@ -59,7 +59,8 @@ Column {
         revision;
         return root.settings ? (root.settings.loadValue("userTemplates", {}) ?? {}) : {};
     }
-    readonly property var templateValues: Templates.valuesOf(active, userTemplates)
+    // Theme tokens resolved: saved profiles and kept changes get numbers
+    readonly property var templateValues: Templates.resolveTheme(Templates.valuesOf(active, userTemplates), Theme)
     readonly property var changes: Templates.changes(stored, templateValues)
     readonly property bool activeOverlay: Templates.isOverlay(active, userTemplates)
     // The instance's own size (with an overlay template: the one underneath)
