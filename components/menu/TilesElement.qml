@@ -304,6 +304,7 @@ Item {
                     color: scElement.look.tileColor
 
                     AppTile {
+                        id: tileVisual
                         textJumpSection: "tlText"
                         anchors.fill: parent
                         app: scTile.app
@@ -344,6 +345,8 @@ Item {
                         description: menu.tooltipDescription(scTile.app)
                         target: scTile
                         hoverArea: scArea
+                        nameShown: tileVisual.nameInFull
+                        descriptionShown: tileVisual.descriptionInFull
                     }
 
                     MouseArea {

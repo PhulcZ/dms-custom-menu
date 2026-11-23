@@ -19,6 +19,10 @@ Item {
     property bool showIcon: true
     property bool showName: true
     property bool showDescription: false
+    // Name and description readable on the tile itself (shown, not cut):
+    // the tooltip then leaves them out
+    readonly property bool nameInFull: showName && !nameText.truncated
+    readonly property bool descriptionInFull: showDescription && !descriptionText.truncated && !(app?.badge)
     property string iconPosition: "top"
     property string textAlign: "center"
 
@@ -143,6 +147,7 @@ Item {
             spacing: root.descriptionGap
 
             StyledText {
+                id: nameText
                 visible: root.showName
                 width: parent.width
                 height: root.lineHeight * root.nameLines

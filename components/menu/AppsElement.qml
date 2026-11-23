@@ -269,6 +269,7 @@ Item {
                                         // background would cover it
 
                                         AppTile {
+                                            id: appTile
                                             iconJumpSection: "appIcon"
                                             textJumpSection: "appText"
                                             anchors.fill: parent
@@ -316,6 +317,8 @@ Item {
                                             description: menu.tooltipDescription(tile.modelData)
                                             target: tile
                                             hoverArea: tileArea
+                                            nameShown: appTile.nameInFull
+                                            descriptionShown: appTile.descriptionInFull
                                         }
 
                                         MouseArea {

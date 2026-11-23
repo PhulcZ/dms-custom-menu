@@ -2,9 +2,10 @@ import QtQuick
 import qs.Common
 import qs.DCommon.Widgets
 
-// Tooltip for app and button tiles: DMS' tooltip, the name and (when there
-// is one) the description on its own line, below the tile after a short
-// pause while the mouse rests on it.
+// Tooltip for app and button tiles: DMS' tooltip, below the tile after a
+// short pause while the mouse rests on it. Shows what the tile itself does
+// not: the name when it is hidden or cut, the description when there is one
+// and it is not on the tile in full; nothing new, no tooltip.
 Item {
     id: root
 
@@ -12,9 +13,15 @@ Item {
     property string description: ""
     property Item target: null
     property MouseArea hoverArea: null
+    // What the tile shows in full already
+    property bool nameShown: false
+    property bool descriptionShown: false
 
-    readonly property bool wanted: !!hoverArea && hoverArea.containsMouse && title !== ""
-    readonly property string shownText: description !== "" ? title + "\n" + description : title
+    readonly property string titlePart: nameShown ? "" : title
+    readonly property string descriptionPart: descriptionShown ? "" : description
+    readonly property string shownText: [titlePart, descriptionPart].filter(s => s !== "").join("\n")
+    // title "" = tooltips off for this tile
+    readonly property bool wanted: !!hoverArea && hoverArea.containsMouse && title !== "" && shownText !== ""
 
     onWantedChanged: {
         if (wanted) {
@@ -34,6 +41,6 @@ Item {
 
     DTooltipV2 {
         id: tip
-        multiline: root.description !== ""
+        multiline: root.shownText.indexOf("\n") >= 0 || root.shownText.length > 40
     }
 }
