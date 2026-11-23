@@ -108,14 +108,6 @@ Item {
         DFlickable {
             id: appFlick
             fadeEdges: false
-            // Scroll bar in the middle between the apps and the
-            // element's edge (its background, incl. padding)
-            QQC.ScrollBar.vertical: GutterScrollbar {
-                host: appFlick.parent
-                flick: appFlick
-                contentRight: appFlick.x + appFlick.width
-                edgeRight: appGrid.width + (menu.areaStyleFor("apps")?.padding ?? 0)
-            }
             EdgeFade {
                 menu: element.menu
                 parent: appFlick.parent
@@ -173,7 +165,7 @@ Item {
                             height: section.height - sectionBody.topPadding + Theme.spacingXS * 2
                             radius: Theme.cornerRadius
                             color: Theme.withAlpha(Theme.primary, 0.08)
-                            border.width: 1
+                            border.width: Theme.outlineWidth
                             border.color: Theme.primary
                         }
 
@@ -284,7 +276,7 @@ Item {
                                             showIcon: menu.appShowIcon
                                             showName: menu.appShowLabels
                                             // Files and folders: their place (search settings)
-                                            showDescription: menu.appShowDescription || (!!tile.modelData.isFileResult && menu.searchPathShow)
+                                            showDescription: menu.appShowDescription || (!!tile.modelData?.isFileResult && menu.searchPathShow)
                                             iconPosition: menu.appIconPosition
                                             textAlign: menu.appTextAlign
                                             iconSize: menu.appIconSize

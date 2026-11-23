@@ -418,7 +418,7 @@ Item {
             anchors.bottom: parent.bottom
             width: Math.min(parent.width, 520)
             clip: true
-            spacing: 2
+            spacing: Theme.spacingXXS
             model: appPicker.apps
             delegate: Rectangle {
                 id: appRow

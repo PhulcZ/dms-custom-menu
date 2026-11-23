@@ -25,14 +25,15 @@ Popup {
     focus: true
     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutside
     anchors.centerIn: parent
-    width: Math.min(960, (parent?.width ?? 960) - Theme.spacingXL * 2)
-    height: Math.min(680, (parent?.height ?? 680) - Theme.spacingXL * 2)
+    // Most of the settings window, its margin from the theme
+    width: Math.max(0, (parent?.width ?? 0) * 0.8 - Theme.spacingXL * 2)
+    height: Math.max(0, (parent?.height ?? 0) * 0.85 - Theme.spacingXL * 2)
     padding: Theme.spacingL
 
     background: StyledRect {
         radius: Theme.cornerRadiusL
         color: Theme.hostSurface
-        border.width: 1
+        border.width: Theme.outlineWidth
         border.color: Theme.outlineVariant
     }
 

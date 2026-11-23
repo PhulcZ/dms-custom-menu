@@ -198,13 +198,6 @@ Item {
     DFlickable {
         id: scFlick
         fadeEdges: false
-        // Scroll bar in the middle between the tiles and the edge
-        QQC.ScrollBar.vertical: GutterScrollbar {
-            host: scFlick.parent
-            flick: scFlick
-            contentRight: scFlick.x + tileArea.x + scElement.contentW
-            edgeRight: scElement.width + scElement.hullPad
-        }
         EdgeFade {
             menu: scElement.menu
             parent: scFlick.parent

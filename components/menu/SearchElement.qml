@@ -145,7 +145,7 @@ Item {
         Row {
             id: scopeRow
             anchors.centerIn: parent
-            spacing: 2
+            spacing: Theme.spacingXXS
             StyledText {
                 anchors.verticalCenter: parent.verticalCenter
                 text: menu.searchScopeLabel

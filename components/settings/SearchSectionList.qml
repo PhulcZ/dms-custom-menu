@@ -16,7 +16,7 @@ Column {
     property color textColor: Theme.surfaceText
 
     width: parent?.width ?? 0
-    spacing: 2
+    spacing: Theme.spacingXXS
 
     SettingValue {
         id: orderSetting

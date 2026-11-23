@@ -272,7 +272,7 @@ Item {
                                     anchors.verticalCenter: parent.verticalCenter
                                     width: catFlickEdit.labelW
                                     height: 36
-                                    text: subRow.modelData.name
+                                    text: subRow.modelData.name ?? ""
                                     placeholderText: I18n.trFor("customMenu", "Name")
                                     placeholderColor: Theme.withAlpha(menu.appTextColor, 0.5)
                                     onEditingFinished: menu.renameSubcategory(catBlock.modelData.key, subRow.modelData.id, text)

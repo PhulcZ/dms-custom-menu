@@ -201,7 +201,7 @@ PopoutComponent {
                 height: scopeColumn.implicitHeight + Theme.spacingXS * 2
                 radius: Theme.cornerRadius
                 color: Theme.surfaceContainer
-                border.width: 1
+                border.width: Theme.outlineWidth
                 border.color: Theme.outlineVariant
 
                 Column {
@@ -1033,7 +1033,7 @@ PopoutComponent {
                                     radius: Theme.cornerRadius
                                     readonly property color base: Theme.surfaceContainerHigh
                                     color: Qt.rgba(base.r, base.g, base.b, 1)
-                                    border.width: 1
+                                    border.width: Theme.outlineWidth
                                     border.color: Theme.outlineVariant
                                     Row {
                                         id: alignChoices
