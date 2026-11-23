@@ -2,7 +2,7 @@
     "id": "customMenu",
     "name": "CustomMenu",
     "description": "Highly customizable start menu and launcher: search, categories, app tiles and buttons, arranged freely on a grid",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": "PhulcZ",
     "icon": "apps",
