@@ -392,17 +392,6 @@ Section {
                                         textRoles: true
                                     }
 
-                                    PluginSelection {
-                                        settingKey: "editScope"
-                                        label: I18n.trFor("customMenu", "Where app changes apply")
-                                        description: I18n.trFor("customMenu", "DMS only: same as the DMS launcher. System-wide: a custom desktop file in ~/.local/share/applications; the command can be edited")
-                                        options: [
-                                            { label: I18n.trFor("customMenu", "DMS only"), value: "dms" },
-                                            { label: I18n.trFor("customMenu", "System-wide"), value: "system" }
-                                        ]
-                                        defaultValue: Defaults.editScope
-                                    }
-
                                     StringSetting {
                                         x: Theme.spacingM
                                         width: parent.width - Theme.spacingM * 2
@@ -434,6 +423,29 @@ Section {
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+
+            // Behaviour of the apps element
+            Section {
+                key: "appBehaviour"
+                title: I18n.trFor("customMenu", "Behavior")
+
+                body: Component {
+                    Item {
+
+                        // Edit App (right click): where its changes are stored
+                        PluginSelection {
+                            settingKey: "editScope"
+                            label: I18n.trFor("customMenu", "Where app changes apply")
+                            description: I18n.trFor("customMenu", "DMS only: same as the DMS launcher. System-wide: a custom desktop file in ~/.local/share/applications; the command can be edited")
+                            options: [
+                                { label: I18n.trFor("customMenu", "DMS only"), value: "dms" },
+                                { label: I18n.trFor("customMenu", "System-wide"), value: "system" }
+                            ]
+                            defaultValue: Defaults.editScope
                         }
                     }
                 }
